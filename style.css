@@ -18,7 +18,7 @@ header h1 {
   font-weight: 400;
   line-height: 7.5rem;
   text-align: center;
-  background-image: url(/images/logo.png);
+  background-image: url(./images/logo.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 480px 120px;
@@ -41,15 +41,15 @@ section h2 {
 }
 
 section#projects h2 {
-  background-image: url(/images/section-projects.png);
+  background-image: url(./images/section-projects.png);
 }
 
 section#members h2 {
-  background-image: url(/images/section-members.png);
+  background-image: url(./images/section-members.png);
 }
 
 section#contacts h2 {
-  background-image: url(/images/section-contacts.png);
+  background-image: url(./images/section-contacts.png);
 }
 
 ul {

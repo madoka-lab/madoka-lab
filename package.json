@@ -1,0 +1,21 @@
+{
+  "name": "madoka-lab",
+  "private": true,
+  "scripts": {
+    "prebuild": "rm -rf ./dist",
+    "build": "parcel build ./index.html --public-url /",
+    "dev": "parcel ./index.html",
+    "lint": "prettier --list-different \"./**/*.{js,json,css,md}\"",
+    "lint:fix": "prettier --write \"./**/*.{js,json,css,md}\"",
+    "precommit": "lint-staged"
+  },
+  "lint-staged": {
+    "*.{js,json,css,md}": ["prettier --write", "git add"]
+  },
+  "devDependencies": {
+    "husky": "^0.14.3",
+    "lint-staged": "^6.0.0",
+    "parcel-bundler": "^1.4.1",
+    "prettier": "^1.10.2"
+  }
+}
